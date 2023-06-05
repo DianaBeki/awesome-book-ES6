@@ -12,6 +12,7 @@ const displayBooks = ()=>{
         const button = document.createElement('button');
         button.classList.add('removeBtn');
         button.textContent = 'Remove';
+        button.style.
      
         div.appendChild(paragraph);
         div.appendChild(button);
