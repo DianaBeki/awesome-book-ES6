@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+ height: 100vh;
+}
+
+header {
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    box-shadow: 1px 2px 4px darkgrey;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-items {
+    display: flex;  
+    list-style: none;
+}
+
+.line {
+    width: .2rem;
+    height: 2rem;
+    margin-right: 3px;
+    background-color: black;
+}
+
+.linkbook {
+    padding-top: 7px;
+}
+
+.list-items li {
+    margin-right: 10px;
+    padding-top: 7px;
+}
+
+
+.heading1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 2rem;
+}
+
+.heading2 {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#addForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    margin-bottom: 10px;
+    height: 1.5rem;
+}
+
+.btn {
+    padding: 3px 4px;
+    margin-left: 9rem;
+}
+
+.bookList {
+    border: 1px solid black;
+    box-shadow: 1px 2px 4px grey;
+    margin: 1rem;
+}
+
+ .bookwrapper {
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+}
+
+.bookList div:nth-child(odd){
+    background-color: rgba(128, 128, 128, 0.356);
+}
+
+.removeBtn {
+    padding: .5rem;
+}
+
+
+.contactInfo {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.listInfo {
+    margin-left: 2.3rem;
+}
+
+
+ .heading3 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.textContent {
+    margin-bottom: 1rem;
+}
+
+#footer {
+    margin-top: 25rem;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    box-shadow: 1px 2px 4px darkgrey;
+    text-align: center;
+}
