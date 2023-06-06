@@ -74,7 +74,7 @@ Clone this repository to your desired folder:
 
 
   cd my-folder
-  git clone git@github.com:DianaBeki/Book-app-ES6.git
+  git clone git@github.com:DianaBeki/awesome-book-ES6.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,7 +139,7 @@ Add slideshow to headline section
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/DianaBeki/Book-app-ES6/issues).
+Feel free to check the [issues page](https://github.com/DianaBeki/awesome-book-ES6/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,4 +172,4 @@ I would like to thank Microverse team and reviewers who helped me make this proj
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/DianaBeki/Book-app-ES6/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/DianaBeki/awesome-book-ES6/blob/refactor-ES6/LICENSE) licensed.
