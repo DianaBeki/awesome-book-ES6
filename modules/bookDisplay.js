@@ -1,34 +1,23 @@
-import {add} from './add.js';
-
+import remove from './remove.js'
+let bookShop = JSON.parse(localStorage.getItem('bookShop')) || [];
 const bookList = document.querySelector('.bookList');
-const form = document.getElementById('addForm');
-
-const displayBooks = ()=>{
-    for(let i = 0; i < 4; i++){
+function display(){
+    bookList.innerHTML = '';
+    for(let i = 0; i < bookShop.length; i++){
         const div = document.createElement('div');
         div.classList.add('bookwrapper');
         const paragraph = document.createElement('p');
-        paragraph.textContent = '"Title" by author';
-        const button = document.createElement('button');
-        button.classList.add('removeBtn');
-        button.textContent = 'Remove';
-     
+        paragraph.textContent = `"${bookShop[i].title}", ${bookShop[i].author}`;
+        const buttonRemove = document.createElement('button');
+        buttonRemove.classList.add('removeBtn');
+        buttonRemove.textContent = 'Remove';
         div.appendChild(paragraph);
-        div.appendChild(button);
-     
+        div.appendChild(buttonRemove);
         bookList.appendChild(div);
+        buttonRemove.addEventListener('click', () => {
+            remove(bookShop[i].title, bookShop[i].author);
+            location.reload()
+          });
      }
 }
-
-const addBtn=()=>{
-    form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    add(title.value.trim(), author.value.trim());
-    DisplayBooks();
-    form.reset();
-  });
-  }
-
-export {displayBooks, addBtn};
-
- 
+export default display;
