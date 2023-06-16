@@ -57,7 +57,7 @@ In this project, I refactored the Awesome books app code. The goal is to make it
 <!-- Live Demo -->
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Check out the [live demo]()
+- Check out the [live demo](https://dianabeki.github.io/awesome-book-ES6/)
 <br/>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
