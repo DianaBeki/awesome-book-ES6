@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Martian+Mono:wght@200;300;400&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oswald:wght@300;600&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,600;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,800;0,900;1,100;1,300;1,400;1,500;1,800;1,900&family=Vollkorn:ital,wght@0,500;0,600;0,800;1,400;1,600;1,700&display=swap");
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-body {
+ body {
   font-family: "Roboto", sans-serif;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #C4D7B2;
 }
 
 #logo {
-  color: blue;
+  color: #fff;
   font-weight: 900;
 }
 
@@ -26,12 +26,11 @@ body {
 
 header {
   border: 1px solid black;
-  margin-left: 20px;
-  margin-right: 20px;
   padding: 15px 20px;
   box-shadow: 1px 2px 4px darkgrey;
   display: flex;
   justify-content: space-between;
+  background-color: #8EAC50;
 }
 
 a {
@@ -48,6 +47,10 @@ a {
   padding-left: 7px;
 }
 
+.navItem:hover {
+  color: #fff;
+}
+
 .linkbook {
   padding-top: 7px;
 }
@@ -62,11 +65,13 @@ a {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 2rem;
+  font-weight: bold;
 }
 
 .heading2 {
   margin-top: 3rem;
   text-align: center;
+  font-weight: bold;
 }
 
 #addForm {
@@ -112,6 +117,7 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
 }
 
 .listInfo {
@@ -128,13 +134,16 @@ input {
 }
 
 #footer {
-  margin-top: 25rem;
   border: 1px solid black;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 10px 20px;
+  padding: 15px 20px;
   box-shadow: 1px 2px 4px darkgrey;
   text-align: center;
+  background-color: #8EAC50;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .books {
@@ -149,4 +158,5 @@ input {
   margin-left: auto;
   margin-right: 1.5rem;
   margin-top: 1rem;
+  font-weight: bold;
 }
